@@ -1,0 +1,78 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Nov  8 14:10:17 2024
+
+@author: win11
+"""
+
+
+
+/*#select_service .Select-control, #select_view .Select-control {*/
+/*#select_service .Select-control, #select_view .Select-control{
+    background-color: red !important;
+    color:white;
+  }*/
+
+.fixed-button {
+
+position:fixed;
+bottom:20px;
+right:20px;
+
+}
+
+#select_service .Select-menu-outer,#select_view .Select-menu-outer  {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+/* changes the text color of input box */
+#select_service .Select-value-label, #select_view .Select-value-label{
+    color: white !important;
+}
+
+#tabs-content-example-graph {
+padding-top:2rem;
+border-bottom: 1px solid rgb(73, 80, 87);
+border-left: 1px solid rgb(73, 80, 87);
+border-right: 1px solid rgb(73, 80, 87);
+
+}
+
+
+
+/*no horrible borders on list groups, why no ordinary list#*/
+
+.list-group.list-group-flush, list-group-item {border:0px solid #222}
+
+
+/*text align tables center*/
+.table.table-bordered {text-align:center;}
+
+/*.some typography*/
+
+.font-small {font-size:.75rem}
+
+
+
+
+/*margins and paddings if you're in a hurry */
+
+.padding-lr-1rem {
+padding:0 2rem;}
+
+
+.margin-b-2rem {
+margin-bottom:2rem}
+
+
+
+.arrow {
+    width:20px;
+    height:20px;
+    }
+
+.arrow-sm {
+    width:10px;
+    height:10px;
+    }
